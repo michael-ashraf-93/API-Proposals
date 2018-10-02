@@ -36,8 +36,8 @@ Proposal is an application which serves sales team for generating proposals code
 <ul>
         <p><code>GET</code>     : Get a resource or list of resources</p>
         <p><code>POST</code>    : Update resource</p>
-<li>
-
+</ul>
+<p><strong>Description Of Usual Server Responses:-</strong></p>
 <ul>
     <li>
         <p>200 <code>OK</code> - the request was successful (some API calls may return 201 instead).</p>
