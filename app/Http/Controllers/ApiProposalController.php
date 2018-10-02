@@ -22,7 +22,7 @@ class ApiProposalController extends Controller
 
     public function index()
     {
-        $proposals = Proposal::all();
+        $proposals = Proposal::get();
         return response()->json($proposals);
     }
 
