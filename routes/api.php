@@ -27,5 +27,5 @@ Route::get('/', 'ApiProposalController@index');
 Route::get('/show-my-proposals', 'ApiProposalController@showMyProposals');
 Route::get('/show/{id}', 'ApiProposalController@show');
 Route::post('/create', 'ApiProposalController@create');
-Route::post('/update/{id}', 'ApiProposalController@update');
+Route::put('/update/{id}', 'ApiProposalController@update');
 Route::post('/delete/{id}', 'ApiProposalController@delete');
