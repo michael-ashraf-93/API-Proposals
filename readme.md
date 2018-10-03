@@ -71,7 +71,7 @@ Proposal is an application which serves sales team for generating proposals code
 <p><strong>User attributes:</strong></p>
 <ul>
     <li>
-        <p>id <code>(Number)</code> : unique|identifier|incremental.</p>
+        <p>id <code>(integer)</code> : unique|identifier|incremental.</p>
     </li>
     <li>
         <p>first_name <code>(String)</code> : First Name.</p>
