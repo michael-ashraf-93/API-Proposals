@@ -35,7 +35,8 @@ Proposal is an application which serves sales team for generating proposals code
 <p><strong>Allowed HTTPs requests:-</strong></p>
 <ul>
         <p><code>GET</code>     : Get a resource or list of resources</p>
-        <p><code>POST</code>    : Update resource</p>
+        <p><code>POST</code>    : Create or Delete resource</p>
+        <p><code>PUT</code>     : Update resource</p>
 </ul>
 <p><strong>Description Of Usual Server Responses:-</strong></p>
 <ul>
@@ -196,7 +197,7 @@ Proposal is an application which serves sales team for generating proposals code
 <hr>
 
 <p><strong>Update Existed Proposal and Proposal code(according to new data).</strong></p>
-<p><code>POST</code> : http://127.0.0.1:8000/api/update/{id}</p>
+<p><code>PUT</code> : http://127.0.0.1:8000/api/update/{id}</p>
 <p>Response</p>
 <div class="docs-request-headers"><h4 class="pm-h4">Headers</h4><table class="pm-table docs-request-table"><tbody><tr><td class="weight--medium">Content-Type</td><td>application/json</td></tr><tr><td class="weight--medium">Authorization</td><td>bearer {{token}}</td></tr></tbody></table></div>
 <code>200</code>
